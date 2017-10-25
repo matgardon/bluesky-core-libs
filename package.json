@@ -10,6 +10,10 @@
     "angular": "1.6.x"
   },
   "devDependencies": {
+    "@types/angular": "1.6.x",
+    "@types/ng-file-upload": "12.x.x",
+    "@types/ngtoaster": "0.x.x",
+    "@types/underscore": "1.x.x",
     "del": "3.x.x",
     "gulp": "3.x.x",
     "gulp-concat": "2.x.x",

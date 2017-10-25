@@ -1,7 +1,7 @@
 {
   "name": "bluesky-core-libs",
   "description": "BS core libs.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "authors": [
     "Mathis Gardon"
   ],
@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "bluesky-core-models": "3.x.x",
-    "bluesky-http-wrapper": "4.1.x"
+    "bluesky-http-wrapper": "4.x.x"
   },
   "devDependencies": {},
   "resolutions": {

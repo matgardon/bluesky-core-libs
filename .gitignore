@@ -8,7 +8,7 @@
 # front-end files
 node_modules/
 bower_components/
-dist/
+#dist/
 npm-debug.log
 .tscache
 .baseDir.ts
