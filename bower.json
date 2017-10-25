@@ -1,7 +1,7 @@
 {
-  "name": "bluesky-core-libs",
+  "name": "bluesky.core.libs",
   "description": "BS core libs.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     "Mathis Gardon"
   ],
