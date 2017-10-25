@@ -1,0 +1,28 @@
+{
+  "name": "bluesky-core-libs",
+  "author": "matgardon",
+  "version": "0.0.1",
+  "engines": {
+    "node": "*"
+  },
+  "private": true,
+  "dependencies": {
+    "angular": "1.6.x"
+  },
+  "devDependencies": {
+    "del": "3.x.x",
+    "gulp": "3.x.x",
+    "gulp-concat": "2.x.x",
+    "gulp-ng-annotate": "2.x.x",
+    "gulp-rename": "1.x.x",
+    "gulp-sourcemaps": "2.x.x",
+    "gulp-tslint": "8.x.x",
+    "gulp-typescript": "3.x.x",
+    "gulp-uglify": "3.x.x",
+    "merge2": "1.x.x",
+    "tslint": "5.x.x",
+    "typescript": "2.5.x",
+    "typings": "2.x.x"
+  },
+  "_comment": "this package description file corresponds to a node package, and is only used to list the node package dependencies of this project. This enables a simple npm install to fetch the dependencies needed from npm"
+}

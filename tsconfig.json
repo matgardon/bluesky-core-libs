@@ -1,0 +1,39 @@
+﻿{
+  // "files"
+  "compilerOptions": {
+    //"emitDecoratorMetadata": true,
+    //"experimentalDecorators": true,
+    //"rootDir": "src",
+    //"outDir": "dist",
+    // "compileOnSave": false, // Disable VS TS compilation on save    
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true, //Raise error on expressions and declarations with an implied ‘any’ type.
+    //https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#implicit-returns
+    "noImplicitReturns": true,
+    //https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#case-clause-fall-throughs
+    "noFallthroughCasesInSwitch": true,
+    //https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#flag-unused-declarations-with---nounusedparameters-and---nounusedlocals
+    "noUnusedParameters": true,
+    //https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#flag-unused-declarations-with---nounusedparameters-and---nounusedlocals
+    "noUnusedLocals": true,
+    "module": "none", //TODO MGA: activate module strategy
+    // "module": "none", //TODO MGA: activate module strategy
+    // "moduleResolution": "node",
+    "target": "es5",
+    "declaration": true, //used by gulp-ts
+    // "noExternalResolve": true, //we do not use ///reference paths, so we must provide the compiler with external .d.ts ourselves. This speeds up compilation.
+    "sourceMap": false, //handled by gulp-sourcemaps,
+    "typeRoots": [
+      "./typings/**/*",
+      "./node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "bower_components",
+    "dist",
+    //VS Specific folders
+    ".vs"
+  ]
+}

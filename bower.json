@@ -1,0 +1,31 @@
+{
+  "name": "bluesky-core-libs",
+  "description": "BS core libs.",
+  "version": "0.0.1",
+  "authors": [
+    "Mathis Gardon"
+  ],
+  "license": "MIT",
+  "main": [
+    "dist/bluesky-core-libs.js"
+  ],
+  "typescript": {
+    "definition": [
+      "dist/bluesky-core-libs.d.ts"
+    ]
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bluesky-core-models": "3.x.x",
+    "bluesky-http-wrapper": "4.1.x"
+  },
+  "devDependencies": {},
+  "resolutions": {
+    "angular": "1.6.x",
+    "angular-animate": "1.6.x"
+  }
+}

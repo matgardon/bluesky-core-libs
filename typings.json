@@ -1,0 +1,7 @@
+{
+  "name": "bluesky-core-libs",
+  "globalDependencies": {
+    "bluesky-core-models": "file:bower_components/bluesky-core-models/dist/bluesky-core-models.d.ts",
+    "bluesky-http-wrapper": "file:bower_components/bluesky-http-wrapper/dist/definitions/bluesky-http-wrapper.d.ts"
+  }
+}

@@ -1,0 +1,15 @@
+# Visual Studio 2015 cache/options directory
+.vs/
+
+# VSCode cache/options dir
+.vscode/
+
+
+# front-end files
+node_modules/
+bower_components/
+dist/
+npm-debug.log
+.tscache
+.baseDir.ts
+*.bak
